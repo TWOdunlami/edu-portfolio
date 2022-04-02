@@ -29,21 +29,21 @@ html {
     html {
       font-size: 60%;
     }
-  }
+}
   
   /* 980px / 16px = 61.25em */
   @media (max-width: 61.25em) {
     html {
       font-size: 58%;
     }
-  }
+}
   
   /* 460px / 16px = 28.75em */
   @media (max-width: 28.75em) {
     html {
       font-size: 55%;
     }
-  }
+}
   /* responsive navigation */
   @media (max-width: 28.75em) {
     .nav {
@@ -53,7 +53,7 @@ html {
     .nav-list {
       margin: 0 1rem;
     }
-  }
+}
 
   /* main style */
 body {
@@ -111,12 +111,12 @@ img {
     display: block;
     font-size: 20px;
     padding: 1rem;
-  }
+}
   
   .nav-list a:hover {
     background: var(--project-txt);
     border-radius: 3px;
-  }
+}
 /* simple welcome section */
 .welcome-section {
     display: flex;
@@ -133,4 +133,4 @@ img {
     font-weight: 200;
     font-style: italic;
     color: var(--bg1-color);
-  }
+}
