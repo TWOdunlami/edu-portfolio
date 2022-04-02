@@ -7,7 +7,6 @@
     --project-color: #45567d;
     --color-sect: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1569&q=80');
     --footer-bg: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');
-
 }
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
 * {
@@ -166,13 +165,13 @@ img {
     text-align: center;
     padding: 10rem 2rem;
     background: var(--project-color);
-  }
+}
   
   .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid var(--text-white);
-  }
+}
   /* "Automagic" image grid using no media queries */
 .projects-grid {
     display: grid;
@@ -182,57 +181,57 @@ img {
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
-  }
+}
 .project {
     background: var(--project-txt);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
-  }
+}
   
   .code {
     color: var(--project-txt);
     transition: color 0.3s ease-out;
-  }
+}
   
   .project:hover .code {
     color: #ff7f50;
-  }
+}
   
   .project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
-  }
+}
   
   .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
-  }
+}
   .btn {
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 2px;
-  }
+}
   
   .btn-show-all {
     font-size: 2rem;
     background: var(--project-color);
     transition: background 0.3s ease-out;
-  }
+}
   
   .btn-show-all:hover {
     background: var(--bg1-color);
-  }
+}
   
   .btn-show-all:hover > i {
     transform: translateX(2px);
-  }
+}
   
   .btn-show-all > i {
     margin-left: 10px;
     transform: translateX(0);
     transition: transform 0.3s ease-out;
-  }
+}
   
   /* Contact section */
   
@@ -246,7 +245,7 @@ img {
     height: 50vh;
     padding: 0 2rem;
     background: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1569&q=80');
-  }
+}
   
   .contact-section-header > h2 {
     font-size: 6rem;
