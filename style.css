@@ -61,7 +61,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
-    color: var(--text-black);
+    color: var(--text-white);
 }
 h1,
 h2 {
@@ -91,7 +91,7 @@ img {
   display: block;
   width: 100%;
 }
-
+/* navigation header */
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -116,4 +116,21 @@ img {
   .nav-list a:hover {
     background: var(--project-txt);
     border-radius: 3px;
+  }
+/* simple welcome section */
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: var(--color-sect);
+}
+.welcome-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--bg1-color);
   }
