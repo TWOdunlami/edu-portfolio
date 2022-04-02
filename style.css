@@ -1,4 +1,18 @@
+/*color templates and assigned variables*/
+:root {
+    --text-white: #fff;
+    --text-black: black;
+    --bg1-color: purple;
+    --project-txt: #888888;
+    --color-sect: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1569&q=80');
+    --footer-bg: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');
+
+}
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Newsreader', serif;
 }
