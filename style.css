@@ -2,8 +2,8 @@
 :root {
     --text-white: #fff;
     --text-black: black;
-    --bg1-color: purple;
-    --project-txt: #888888;
+    --bg1-color: white;
+    --project-txt: white;
     --project-color: #45567d;
     --color-sect: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1569&q=80');
     --footer-bg: url('https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80');
@@ -136,6 +136,7 @@ img {
     display: block;
     font-size: 20px;
     padding: 1rem;
+    color: var(--text-black);
 }
   
   .nav-list a:hover {
@@ -206,6 +207,7 @@ img {
   .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
+    color: black;
 }
   .btn {
     display: inline-block;
@@ -265,7 +267,8 @@ img {
   
   .contact-details {
     font-size: 2.4rem;
-    text-shadow: 2px 2px 1px #1f1f1f;
+    text-shadow: 2px 2px 1px var(--text-black);
+    color: var(--bg1-color);
     transition: transform 0.3s ease-out;
 }
   
@@ -279,12 +282,13 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    background: var(--footer-bg);
+    background: var(--project-txt);
     border-top: 4px solid var(--main-purple);
 }
   
-  footer > p {
+  footer > p, a {
     margin: 2rem;
+    color: var(--text-black);
 }
   
   footer i {
