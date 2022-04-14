@@ -8,7 +8,7 @@ Showcasing the educational projects created from the coursework provided by Free
 
 #### List of Projects
 1. [Educational Portfolio](https://twar-portfolio.netlify.app/)
-    -![Coursework Porfolio](https://github.com/TWOdunlami/edu-portfolio/blob/main/img/Porfolio-coursework.png)
+    -![Coursework Porfolio](https://github.com/TWOdunlami/edu-portfolio/blob/main/img/Portfolio-coursework.png)
 2. [Tribute page for Leeroy the Rottie](https://codepen.io/miscmem/pen/NWXxKWO)
     -![Leeroy Tribute](https://github.com/TWOdunlami/edu-portfolio/blob/main/img/leeroy.png)
 3. [Everyday Quotes](https://twodunlami.github.io/PerspectiveQuotes/)
