@@ -1,5 +1,6 @@
 # Educational portfolio
 Showcasing the educational projects created from the coursework provided by FreeCodeCamp and The Odin Project.
+HTML5UP was used as style/coding reference
 
 ### The projects have been published on the web using different deployment sources:
 - Github pages
