@@ -137,14 +137,14 @@
   }
   .logo .logo-text {
     position: absolute;
-    top: 58%;
-    right: 16%;
+    top: 55%;
+    right: 10%;
     cursor: pointer;
     font-family: "Montserrat";
     font-size: 55px;
     letter-spacing: 0px;
     font-weight: 400;
-    line-height: 58.333333333333336px;
+    line-height: 0px;
   }
   .social {
     padding-left: 60px;
